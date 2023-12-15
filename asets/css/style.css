@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Regular.ttf") format('truetype');
+}
+
+:root {
+  --montserrat: "Montserrat", sans-serif;
+  --primery: #15477A;
+  --white: #fff;
+}
+
+body {
+  font-family: var(--montserrat);
+}
+
+.top-contact, .sosmed {
+  text-decoration: none;
+  list-style: none;
+}
+
+.top-contact li a {
+  font-size: 1.4rem;
+}
+
+#topbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primery);
+  color: var(--white);
+  width: 100%;
+  height: 120px;
+}
+
+#topbar li {
+  display: inline-block;
+}
+
+#topbar li a {
+  padding: 0 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white);
+}
+
+#topbar li a i {
+  color: #f2c808;
+  margin-right: 5px;
+}
+
+.sosmed li a {
+  padding: 0 5px;
+  color: var(--white);
+}
+
+/* header */
+
+header .container .brand img {
+  width: 120px;
+}
+
+.brand {
+  display: flex;
+}
+
+.brand h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #15477a;
+}
+
+.brand h3 {
+  font-size: 18px;
+  font-family: 'Raleway', Sans-Serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
